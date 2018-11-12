@@ -1,4 +1,4 @@
-package practice.GeeksForGeeks.DataStructures.Arrays;
+package com.practice.GeeksForGeeks.Arrays;
 
 public class RotateArray {
 

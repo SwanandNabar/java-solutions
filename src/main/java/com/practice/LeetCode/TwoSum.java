@@ -1,4 +1,4 @@
-package com.practice;
+package com.practice.LeetCode;
 
 public class TwoSum {
     public static int[] twoSum(int[] nums, int target) {

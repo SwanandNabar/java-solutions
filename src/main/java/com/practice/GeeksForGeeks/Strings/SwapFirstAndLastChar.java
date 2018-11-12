@@ -1,4 +1,4 @@
-package practice.GeeksForGeeks.DataStructures.Strings;
+package com.practice.GeeksForGeeks.Strings;
 
 public class SwapFirstAndLastChar {
 
