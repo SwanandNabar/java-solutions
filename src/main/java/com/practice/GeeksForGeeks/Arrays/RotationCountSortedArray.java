@@ -14,7 +14,6 @@ public class RotationCountSortedArray {
                 index = i;
                 return index;
             }
-
         }
         return index;
     }
@@ -35,7 +34,7 @@ public class RotationCountSortedArray {
             return arr[mid + 1];
         }
 
-        if (mid > low && arr[mid] < arr[mid - 1]){
+        if (mid > low && arr[mid] < arr[mid - 1]) {
             return arr[mid];
         }
 
