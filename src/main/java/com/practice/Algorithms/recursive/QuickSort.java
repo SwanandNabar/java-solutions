@@ -1,4 +1,4 @@
-package com.practice.GeeksForGeeks;
+package com.practice.Algorithms.recursive;
 
 
 public class QuickSort {
