@@ -1,4 +1,4 @@
-package com.practice.recursive;
+package com.practice.Algorithms.recursive;
 
 public class TailRecursion {
     static int factTR(int n, int a) {

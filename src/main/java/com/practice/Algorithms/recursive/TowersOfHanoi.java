@@ -1,4 +1,4 @@
-package com.practice.recursive;
+package com.practice.Algorithms.recursive;
 
 public class TowersOfHanoi {
     static void tower(int n, char sourcePole,
