@@ -35,6 +35,5 @@ public class DeleteLinkedList {
 
         System.out.println("Linked List is deleted");
 
-
     }
 }
