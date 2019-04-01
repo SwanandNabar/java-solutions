@@ -2,8 +2,15 @@ package com.practice.Apps;
 
 import java.util.Scanner;
 
+/**
+ * @author snabar
+ * Class to build a perform functions of a minimal calculator with only 2 number input
+ */
 public class Calculator {
 
+    /**
+     * calculate method to ask user for input and call specific methods based on the selection
+     */
     private static void calculate() {
         System.out.println("Enter your operation");
         System.out.println("add, sub, divide, multiply");
@@ -26,7 +33,9 @@ public class Calculator {
         }
     }
 
-
+    /**
+     * method to add two numbers
+     */
     private static void addTwoNumbers() {
         System.out.println("Enter two numbers to add ");
         Scanner reader = new Scanner(System.in);
@@ -38,7 +47,9 @@ public class Calculator {
         calculate();
     }
 
-
+    /**
+     * method to subtract two numbers
+     */
     private static void subTwoNumbers() {
         System.out.println("Enter two numbers to subtract ");
         Scanner reader = new Scanner(System.in);
@@ -50,7 +61,9 @@ public class Calculator {
         calculate();
     }
 
-
+    /**
+     * method to divide two numbers
+     */
     private static void divideTwoNumbers() {
         System.out.println("Enter two numbers to divide ");
         Scanner reader = new Scanner(System.in);
@@ -62,7 +75,9 @@ public class Calculator {
         calculate();
     }
 
-
+    /**
+     * method to multiply two numbers
+     */
     private static void multiplyTwoNumbers() {
         System.out.println("Enter two numbers to multiply ");
         Scanner reader = new Scanner(System.in);
@@ -74,6 +89,10 @@ public class Calculator {
         calculate();
     }
 
+    /**
+     *
+     * @param args main method to accept array of string arguments
+     */
     public static void main(String[] args) {
         calculate();
     }
