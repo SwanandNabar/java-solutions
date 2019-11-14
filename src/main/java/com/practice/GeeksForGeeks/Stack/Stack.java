@@ -1,6 +1,8 @@
 package com.practice.GeeksForGeeks.Stack;
 
-
+/**
+ * @author swanandnabar
+ */
 public class Stack {
 
     private static final int MAX = 1000;
